@@ -3,7 +3,7 @@ import branchLogo from "./images/branch logo.jpeg";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-md bg-primary">
+      <nav className="navbar navbar-expand-md bg-primary fixed-top">
         <a className="navbar-brand brand" href="/">
           <img className="mx-1"
             src={branchLogo} width="60px"
